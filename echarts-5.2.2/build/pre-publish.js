@@ -235,7 +235,6 @@ async function tsCompile(compilerOptionsOverride, srcPathList) {
 function transformRootFolderInEntry(entryFile, replacement) {
     let code = fs.readFileSync(entryFile, 'utf-8');
     // Simple regex replacement
-    // TODO More robust way?
     assert(
         !/(import\s+|from\s+|require\(\s*)["']\.\/echarts\./.test(code)
         && !/(import\s+|from\s+|require\(\s*)["']echarts\./.test(code),
@@ -259,12 +258,10 @@ async function transformDistributionFiles(rooltFolder, replacement) {
         cwd: rooltFolder
     });
     // Simple regex replacement
-    // TODO More robust way?
     for (let fileName of files) {
         let code = fs.readFileSync(fileName, 'utf-8');
         code = singleTransformZRRootFolder(code, replacement);
         // For lower ts version, not use import type
-        // TODO Use https://github.com/sandersn/downlevel-dts ?
         // if (fileName.endsWith('.d.ts')) {
         //     code = singleTransformImportType(code);
         // }

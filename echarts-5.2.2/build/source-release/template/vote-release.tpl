@@ -29,9 +29,6 @@ Please vote on releasing this package as:
 {{ECHARTS_RELEASE_VERSION_FULL_NAME}}
 by "{{VOTE_UNTIL}}".
 
-[ ] +1 Release this package
-[ ] 0 I don't feel strongly about it, but don't object
-[ ] -1 Do not release this package because...
 
 Anyone can participate in testing and voting, not just committers, please
 feel free to try out the release candidate and provide your votes.

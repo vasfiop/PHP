@@ -67,7 +67,6 @@ function createOutputs(basename, { min }, commonOutputOpts) {
             ...commonOutputOpts,
             // Disable sourcemap in min file.
             sourcemap: false,
-            // TODO preamble
             plugins: [
                 createReplacePlugin('production'),
                 terser(),
