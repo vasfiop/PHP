@@ -18,9 +18,7 @@ $count = mysqli_num_rows($list);
 
 <body>
     <?php
-    session_start();
-    if (!isset($_SESSION['admin_name']))
-        header("loaction:index.php?msg=您没有权限，请登陆后访问!");
+    include_once("../system/loginCheck.php");
     ?>
     <p>请输入用户名:
     <form action="" method="post">
