@@ -1,10 +1,8 @@
 <?php
-include_once("../../Util/file_upload_check.php");
-include_once("../../Util/GetRandNumber.php");
 include_once("../../Util/mysqli.php");
+include_once("SQL.php");
 Sqli\sqli_init();
-$sql = "select * from users";
-$list = Sqli\sqli_ctrl($sql);
+$list = my_sql\GetUsers();
 $count = mysqli_num_rows($list);
 ?>
 
@@ -19,6 +17,11 @@ $count = mysqli_num_rows($list);
 </head>
 
 <body>
+    <?php
+    session_start();
+    if (!isset($_SESSION['admin_name']))
+        header("loaction:index.php?msg=您没有权限，请登陆后访问!");
+    ?>
     <p>请输入用户名:
     <form action="" method="post">
         <input type="text" name="search">
@@ -47,9 +50,9 @@ $count = mysqli_num_rows($list);
                 $sex =  $row['gender'] == '1' ? '女' : '男';
                 echo "<td>" . $sex . "</td>";
                 echo "<td>" . $row['tel'] . "</td>";
-                echo "<td><img src=\" " . $row['photo'] . "\"></td>";
+                echo "<td><img src=\"../image/" . $row['photo'] . "\" style=\"width:20%;height:20%;\"></td>";
                 echo "<td>" . $row["email"] . "</td>";
-                echo '<td><a href="">修改</a>|<a href="">删除</a></td>';
+                echo '<td><a href="userEdit.php?id=' . $row['uid'] . '">修改</a>|<a href="doUserDelete.php?id=' . $row['uid'] . '">删除</a></td>';
                 echo "</tr>";
                 $i++;
             }

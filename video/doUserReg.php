@@ -16,7 +16,7 @@ $success = file_upload_check\file_upload_extension($_FILES["head_pic"], "pic");
 if (!$success)
     echo "<script>alert('文件上传类型错误!');history.back();</script>";
 $file_extend = explode(".", $_FILES["head_pic"]["name"]);
-$address =  date('YMDHIS') . Get_Rand\Get_Rand(000, 999) . "." . $file_extend[count($file_extend) - 1];
+$address =  date('Ymdhis') . Get_Rand\Get_Rand(000, 999) . "." . $file_extend[count($file_extend) - 1];
 move_uploaded_file($_FILES["head_pic"]["tmp_name"], "./image/" . $address);
 
 Sqli\sqli_init();

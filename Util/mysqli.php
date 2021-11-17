@@ -25,6 +25,28 @@ function sqli_ctrl($array)
 
     return mysqli_query($con, $array);
 }
+function sqli_get_list($sql)
+{
+    global $con;
+
+    if ($con == null) {
+        echo 'console.log("error::mysqli::数据库还未建立连接")';
+        return false;
+    }
+
+    return mysqli_query($con, $sql);
+}
+function sqli_update($sql)
+{
+    global $con;
+
+    if ($con == null) {
+        echo 'console.log("error::mysqli::数据库还未建立连接")';
+        return false;
+    }
+
+    return mysqli_query($con, $sql);
+}
 function sqli_close()
 {
     global $con;

@@ -2,11 +2,15 @@
 
 namespace file_upload_check;
 
+include_once("GetRandNumber.php");
+
+use function Get_Rand\Get_Rand;
+
 $all_type = array(
     "pic" => array("jpg", "jpeg", "png", "gif", "Bmp", "flv"),
 );
 
-function file_upload_check($file)
+function file_upload_check($file) // 检查上传文件
 {
     $success = true;
     if ($file["error"]) {
@@ -53,4 +57,15 @@ function file_upload_extension($file, $extension_array) // 第一个是文件，
     }
 
     return true;
+}
+function Get_File_name($file)
+{
+    $file_extend = explode(".", $file["name"]);
+    $address =  date('Ymdhis') . Get_Rand(000, 999) . "." . $file_extend[count($file_extend) - 1];
+
+    return $address;
+}
+function Move_File($file, $address)
+{
+    move_uploaded_file($file["tmp_name"], $address);
 }

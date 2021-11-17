@@ -10,7 +10,11 @@ Sqli\sqli_init();
 $sql = "select * from admins where adminname = '$adminName' and password = md5('$password')";
 $list = Sqli\sqli_ctrl($sql);
 $count = mysqli_num_rows($list);
-if ($count > 0)
+if ($count > 0) {
+    session_start();
+    $_SESSION["admin_name"] = $adminName;
     header("location:welcome.php");
-else
-    header("location:Login.php");
+} else {
+    echo '登录失败<br>';
+    header("location:index.php");
+}
