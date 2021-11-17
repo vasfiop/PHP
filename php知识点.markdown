@@ -1,3 +1,5 @@
+# 知识点
+
 ## 函数
 
 | 函数名称 | 功能 |
@@ -48,7 +50,6 @@
 `cmd语句` 反引号执行cmd指令  
 `@` 错误控制符，如果表达式有错误，则不会运算表达式  
 
-
 ## 2021/10/27
 
 foreach(数组名 as 变量名){
@@ -62,7 +63,7 @@ foreach(数组名 as 下标名=>变量名){
 `function 函数名 (参数1,参数2,...)`  
 `global 变量名`  在函数里面调用全局变量
 `static 变量名`  静态变量  
-`$_POST` 数组接受post提交数据 
+`$_POST` 数组接受post提交数据
 
 ****
 
@@ -71,3 +72,5 @@ foreach(数组名 as 下标名=>变量名){
 `date.timezone` = "UTC"  
 `upload_max_filesize` | 设置http上传文件的最大尺寸指令
 `post_max_size` 上传文件最大尺寸不能超过max_size  
+
+## ECharts

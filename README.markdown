@@ -1,3 +1,5 @@
+# 文件说明
+
 | 文件名称 | 项目目的 |
 | :-  | :- |
 | `01_Hellow_world` | 第一个项目 |
@@ -14,3 +16,6 @@
 | `12_find_password` | 使用php发送邮件的系统，找回用户密码练习 |
 | `13_homeword_file_upload` | 课后作业，文件上传处理 |
 | `14_ECharts` | ECharts生成图表 |
+| `PHPMailer` | PHP发送邮件插件 |
+| `echarts-5.2.2`  | 生成图标插件 |
+| `ueditor-dev-1.5.0` | 富文本编辑器插件 |
