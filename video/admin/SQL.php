@@ -31,11 +31,20 @@ function GetVideoType() // 获取所有视频类型
     return $list;
 }
 
-function AddVideo($videoname, $videotype, $filename, $videointro, $address)
+function AddVideo($videoname, $videotype, $filename, $videointro, $address) // 添加视频
 {
     $sql = "insert into videos values(null,'$videoname','$videotype','$videointro',now(),'$filename','$address')";
 
     $list = sqli_update($sql);
 
     return $list;
+}
+
+function GetUserPic($uid) // 获取用户的头像
+{
+    $sql = "SELECT photo FROM users WHERE uid = '$uid'";
+
+    $list = sqli_update($sql);
+
+    return  $list;
 }

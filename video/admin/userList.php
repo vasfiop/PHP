@@ -14,6 +14,16 @@ $count = mysqli_num_rows($list);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function deleteuser(uid) {
+            var msg = confirm("你确认删除该用户吗?");
+            var url = "doUserDelete.php?id=" + uid;
+            if (msg)
+                location.href = url;
+            else
+                return;
+        }
+    </script>
 </head>
 
 <body>
@@ -50,7 +60,8 @@ $count = mysqli_num_rows($list);
                 echo "<td>" . $row['tel'] . "</td>";
                 echo "<td><img src=\"../image/" . $row['photo'] . "\" style=\"width:20%;height:20%;\"></td>";
                 echo "<td>" . $row["email"] . "</td>";
-                echo '<td><a href="userEdit.php?id=' . $row['uid'] . '">修改</a>|<a href="doUserDelete.php?id=' . $row['uid'] . '">删除</a></td>';
+                echo '<td><a href="userEdit.php?id=' . $row['uid'] . '">修改</a>|' .
+                    '<button onclick="deleteuser(' . $row['uid'] . ')">删除</button></td>';
                 echo "</tr>";
                 $i++;
             }
