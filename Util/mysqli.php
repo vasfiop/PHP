@@ -29,31 +29,66 @@ function sqli_get_list($sql)
 {
     global $con;
 
-    if ($con == null) {
-        echo 'console.log("error::mysqli::数据库还未建立连接")';
-        return false;
+    if (!sqli_check_connection()) {
+        echo "数据库还未建立连接！";
+        exit();
     }
 
-    return mysqli_query($con, $sql);
+    $result = mysqli_query($con, $sql);
+    if (!sqli_check_select($result))
+        die("sql=$sql,查询失败!<br>" . mysqli_error($con) . "<br>");
+
+    return $result;
 }
 function sqli_update($sql)
 {
     global $con;
 
-    if ($con == null) {
-        echo 'console.log("error::mysqli::数据库还未建立连接")';
+    if (!sqli_check_connection())
         return false;
-    }
 
-    return mysqli_query($con, $sql);
+    $result = mysqli_query($con, $sql);
+    if (!$result)
+        die("sql=$sql,更新失败!<br>" . mysqli_error($con) . "<br>");
+
+    return $result;
 }
 function sqli_close()
 {
     global $con;
 
-    if ($con == null) {
-        echo 'console.log("error::mysqli::未连接数据库")';
+    if (!sqli_check_connection())
         return false;
-    } else
+    else
         mysqli_close($con);
+    $con = null;
+}
+function sqli_check_select($list)
+{
+
+    if (!sqli_check_connection())
+        sqli_init();
+    $count = mysqli_num_rows($list);
+    if ($count)
+        return true;
+    else
+        return false;
+}
+function sqli_get_count()
+{
+    global $con;
+
+    if (!sqli_check_connection())
+        sqli_init();
+
+    return mysqli_affected_rows($con);
+}
+function sqli_check_connection()
+{
+    global $con;
+
+    if ($con == null)
+        return false;
+    else
+        return true;
 }

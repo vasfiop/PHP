@@ -10,7 +10,7 @@ $uid = $_GET["id"];
 $count = my_sql\GetUserPic($uid);
 $row = mysqli_fetch_assoc($count);
 if (file_exists("../image/" . $row['photo']))
-    $res = unlink("../image/" . $row['photo']);
+   unlink("../image/" . $row['photo']);
 
 $sql = "delete from users where uid = '$uid'";
 $list = Sqli\sqli_ctrl($sql);

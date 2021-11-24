@@ -22,11 +22,11 @@
     <h3>
         <a href="userList.php">注册用户管理</a><br>
         <a href="typeAdd.php">添加视频类型</a><br>
-        <a href="typeList.php">添加视频类型列表</a><br>
+        <a href="typeList.php">视频类型列表</a><br>
         <a href="videoAdd.php">添加视频</a><br>
         <a href="videoList.php">视频列表</a><br>
 
-        <a href="logout.php">管理员注销</a>
+        <a href="logout.php">管理员注销</a><br>
     </h3>
 </body>
 

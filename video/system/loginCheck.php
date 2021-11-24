@@ -6,5 +6,5 @@ function redirect($address, $msg)
 {
     echo $msg . '<br>';
     header("refresh:5;url='$address'");
-    echo "<a href=\"'$address'\">如果没反应就点击跳转</a>";
+    echo "<a href=\"$address\">如果没反应就点击跳转</a>";
 }

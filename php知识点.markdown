@@ -40,6 +40,11 @@
 | `date(Ymdhis)` | 获得系统当前日期的函数 |
 | `file_exists()` | 判断文件是否存在 |
 | `unlink()` | 删除文件 |
+| `mysqli_error(connection);` |  函数返回最近调用函数的最后一个错误描述 |
+| `mysqli_affected_rows(connection)` | 函数返回前一次MySQL操作所影响的记录行数 |
+| `mysqli_num_rows()` | 返回结果集中行的数量 |
+| `mysqli_free_result()` | 释放结果集 |
+| `mysqli_fetch_assoc()` | 返回结果集的单条记录 |
 
 ## 符号
 
