@@ -2,6 +2,7 @@
 include_once("tpl/header.php");
 include_once("../../Util/mysqli.php");
 include_once("../../Util/file_upload_check.php");
+include_once("../system/loginCheck.php");
 include_once("SQL.php");
 $uid = $_POST['uid'];
 $uname = $_POST['userName'];
@@ -22,12 +23,9 @@ else {
 }
 
 Sqli\sqli_init();
-if (Sqli\sqli_update($sql)) {
-    echo "更新成功<br>";
-    echo '<a href="userList.php">返回</a>';
-} else {
-    echo '未知错误<br>';
-    echo '<a href="userList.php">返回</a>';
-}
+if (Sqli\sqli_update($sql))
+    redirect('userList.php', '修改成功!,3秒返回视频列表');
+else
+    redirect('userList.php', '修改失败!,3秒返回视频列表');
 
 include_once("tpl/footer.php");

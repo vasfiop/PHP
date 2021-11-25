@@ -36,7 +36,7 @@ require_once('inc_admin.php');
     <DIV class="container-fluid">
       <DIV class="navbar-header"><BUTTON class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" type="button" data-toggle="collapse" data-target="#navbar"><SPAN class="sr-only">Toggle navigation</SPAN>
           <SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN></BUTTON>
-        <A class="navbar-brand" href="#" target="_blank">视频信息管理系统</A>
+        <A class="navbar-brand" href="welcome.php" target="_blank">视频信息管理系统</A>
       </DIV>
       <DIV class="navbar-collapse collapse" id="navbar">
         <UL class="nav navbar-nav navbar-right">

@@ -42,7 +42,7 @@ if ($count == 0) {
         echo "<td>{$row['uploaddate']}</td>";
         echo "<td><img src=\"../posters/{$row['pic']}\" width=60 height=60</td>";
         echo "<td><a href=\"videoEdit.php?vid={$row['vid']}\">修改</a>|" .
-            "<a href=\"doVideoDelete.php?vid={$row['vid']}\">删除</a></td>";
+            "<a href=\"doVideoDelete.php?vid={$row['vid']}\" onclick=\"return confirm('你确定吗?')\">删除</a></td>";
         echo "</tr>";
     }
     ?>

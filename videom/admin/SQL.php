@@ -144,3 +144,21 @@ function UpdateAdminPass($adminname, $password)
 
     return sqli_update($sql);
 }
+function GetUserBySearch($key)
+// 通过搜索用户名
+{
+    $sql = "SELECT * FROM users where uname LIKE '%{$key}%'";
+
+    return sqli_get_list($sql);
+}
+function DeleteUser($uid)
+// 删除用户
+{
+    $sql = "DELETE from users where uid = '$uid'";
+    return sqli_update($sql);
+}
+function GetVideoByTypeId($tid)
+{
+    $sql = "SELECT * FROM videos WHERE tid = $tid";
+    return sqli_get_list($sql);
+}

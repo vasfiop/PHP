@@ -16,6 +16,7 @@ $list = my_sql\GetVideoType();
         while ($row = mysqli_fetch_assoc($list)) {
             echo "<tr>";
             echo "<td>$i</td>";
+            $i++;
             echo "<td>{$row['typename']}</td>";
             echo "<td><a href=\"typeEdit.php?tid={$row['tid']}\">修改</a>" .
                 "|<a href=\"doTypeDelete.php?tid={$row['tid']}\" onclick=\"return confirm('你确定吗?')\">删除</a></td>";

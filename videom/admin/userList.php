@@ -1,19 +1,21 @@
 <?php
 include_once("tpl/header.php");
+include_once("../system/loginCheck.php");
 include_once("../../Util/mysqli.php");
 include_once("SQL.php");
 Sqli\sqli_init();
-$list = my_sql\GetUsers();
-$count = mysqli_num_rows($list);
-?>
+$list = null;
+if (isset($_POST['search']))
+    $list = my_sql\GetUserBySearch($_POST['search']);
+else
+    $list = my_sql\GetUsers();
 
-<?php
-include_once("../system/loginCheck.php");
+$count = mysqli_num_rows($list);
 ?>
 <p>请输入用户名:
 <form action="" method="post">
-    <input type="text" name="search">
-    <button type="submit">搜索</button>
+    <input type="text" name="search" value="<?php echo isset($_POST['search']) ? $_POST['search'] : ""; ?>">
+    <input type="submit" value="搜索">
 </form>
 </p>
 
@@ -41,7 +43,7 @@ include_once("../system/loginCheck.php");
             echo "<td><img src=\"../image/" . $row['photo'] . "\" style=\"width:20%;height:20%;\"></td>";
             echo "<td>" . $row["email"] . "</td>";
             echo '<td><a href="userEdit.php?id=' . $row['uid'] . '">修改</a>|' .
-                '<button onclick="deleteuser(' . $row['uid'] . ')">删除</button></td>';
+                '<a href="doUserDelete.php?tid=' . $row['uid'] . '" onclick="return confirm(\'你确定吗?\')">删除</a></td>';
             echo "</tr>";
             $i++;
         }

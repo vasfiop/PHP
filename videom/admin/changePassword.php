@@ -13,7 +13,7 @@ include_once("SQL.php");
     <input type="password" name="password1" required><br>
     请确认新密码:
     <input type="password" name="password2" required><br>
-    <input class="btn" type="submit" value="登陆">
+    <input class="btn" type="submit" value="确定">
 </form>
 
 <?php
