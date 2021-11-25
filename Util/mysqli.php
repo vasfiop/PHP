@@ -2,6 +2,9 @@
 
 namespace Sqli;
 
+use mysqli;
+use mysqli_result;
+
 static $con = null;
 
 function sqli_init()
@@ -35,7 +38,7 @@ function sqli_get_list($sql)
     }
 
     $result = mysqli_query($con, $sql);
-    if (!sqli_check_select($result))
+    if ($result->num_rows != 0 && !sqli_check_select($result))
         die("sql=$sql,查询失败!<br>" . mysqli_error($con) . "<br>");
 
     return $result;
@@ -91,4 +94,10 @@ function sqli_check_connection()
         return false;
     else
         return true;
+}
+function sqli_get_map($mysqli_result)
+{
+    if (!($mysqli_result instanceof mysqli_result))
+        return false;
+    return mysqli_fetch_assoc($mysqli_result);
 }

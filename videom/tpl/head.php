@@ -1,3 +1,9 @@
+<?php
+include_once(__DIR__ . "/../../Util/mysqli.php");
+include_once(__DIR__ . "/../admin/SQL.php");
+Sqli\sqli_init();
+$list = my_sql\GetVideoType();
+?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 
@@ -19,7 +25,6 @@
 </head>
 
 <body>
-	<!-- TODO 该进行前台的事情了 -->
 	<nav class="navbar navbar-fixed-top navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -36,16 +41,17 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="index.php">首页</a></li>
-					<li><a href="list.php">电影</a></li>
-					<li><a href="list.php">电视剧</a></li>
-					<li><a href="list.php">动画片</a></li>
-					<li><a href="list.php">体育</a></li>
-
+					<?php
+					while ($row = mysqli_fetch_assoc($list)) {
+					?>
+						<li><a href="index.php?tid=<?php echo $row['tid']; ?>"><?php echo $row['typename']; ?></a></li>
+					<?php
+					}
+					?>
 				</ul>
-				<form class="navbar-form navbar-left" role="search" action="search.html">
+				<form class="navbar-form navbar-left" role="search" action="search.php" method="POST">
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
+						<input type="text" class="form-control" placeholder="Search" name="videosearch">
 					</div>
 					<button type="submit" class="btn btn-default">搜索</button>
 				</form>
@@ -59,7 +65,7 @@
 	</nav>
 
 	<!-- /.navbar -->
-	<!-- /注册模态框 -->
+	<!-- TODO /注册模态框 -->
 	<div class="modal fade" id="reg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -82,7 +88,7 @@
 		</div>
 	</div>
 	<!-- /注册模态框结束 -->
-	<!-- /登录模态框开始 -->
+	<!-- TODO /登录模态框开始 -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">

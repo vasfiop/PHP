@@ -1,6 +1,14 @@
 <?php
-require_once('tpl/head.php');
-include_once('./system/dbConn.php');
+include_once('tpl/head.php');
+
+Sqli\sqli_init();
+if (isset($_GET['tid'])) {
+    $tid = $_GET['tid'];
+    $list = my_sql\GetVideoTypeById($tid);
+} else {
+    $list = my_sql\GetVideoType();
+}
+$ranking = my_sql\GetVideoByRanking();
 ?>
 <div class="container">
     <!--幻灯片开始-->
@@ -44,52 +52,55 @@ include_once('./system/dbConn.php');
     <div class="row row-offcanvas row-offcanvas-right">
 
         <div class="col-xs-12 col-sm-9">
-
-
             <div class="row text-center">
-                <div class="col-xs-12 col-lg-12 mlist">
-                    <h2>栏目名称</h2>
-                    <ul class="list-inline row text-center">
-                        <li class="col-xs-4 col-sm-3 col-lg-2">
-                            <img src="assets/images/img1.jpg" class="responsive img-thumbnail" />
 
-                            <p><a href="show.php">视频标题</a>
-                            </p>
-                        </li>
-                        <li class="col-xs-4 col-sm-3 col-lg-2">
-                            <img src="assets/images/img1.jpg" class="responsive img-thumbnail" />
+                <?php
+                while ($line = mysqli_fetch_assoc($list)) {
+                    $one_type = my_sql\GetVideoByTypeIdForNumber($line['tid']);
+                    if (!$one_type->num_rows)
+                        continue;
+                ?>
+                    <div class="col-xs-12 col-lg-12 mlist">
+                        <h2><?php echo $line['typename']; ?></h2>
+                        <ul class="list-inline row text-center">
+                            <?php
+                            while ($row = mysqli_fetch_assoc($one_type)) {
+                            ?>
+                                <li class="col-xs-4 col-sm-3 col-lg-2">
+                                    <img src="posters/<?php echo $row['pic']; ?>" class="responsive img-thumbnail" />
 
-                            <p><a href="show.php">视频标题</a>
-                            </p>
-                        </li>
+                                    <p><a href="show.php?vid=<?php echo $row['vid']; ?>"><?php echo $row['videoname']; ?></a>
+                                    </p>
+                                </li>
+                            <?php
+                            }
+                            ?>
 
-                    </ul>
-                    <p><a class="btn btn-default" href="list.html" role="button">更多 &raquo;</a></p>
-                </div>
-                <!--/.col-xs-6.col-lg-4-->
-
+                        </ul>
+                        <!-- TODO list.php没有 -->
+                        <p><a class="btn btn-default" href="list.html" role="button">更多 &raquo;</a></p>
+                    </div>
+                <?php
+                }
+                ?>
             </div>
-            <!--/row-->
         </div>
-        <!--/.col-xs-12.col-sm-9-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
             <div class="list-group text-center">
                 <h2 style="color:white;">排行</h2>
                 <ul class="list-inline row text-center">
-                    <li class="col-xs-12 col-lg-6">
-                        <img src="assets/images/img1.jpg" class="responsive img-thumbnail" />
-
-                        <p><a href="show.php">视频标题</a>
-                        </p>
-                    </li>
-                    <li class="col-xs-12 col-lg-6">
-                        <img src="assets/images/img1.jpg" class="responsive img-thumbnail" />
-
-                        <p><a href="show.php">视频标题</a>
-                        </p>
-                    </li>
-
+                    <?php
+                    while ($row = mysqli_fetch_assoc($ranking)) {
+                    ?>
+                        <li class="col-xs-12 col-lg-6">
+                            <img src="posters/<?php echo $row['pic']; ?>" class="responsive img-thumbnail" />
+                            <p><a href="show.php?vid=<?php echo $row['vid']; ?>"><?php echo $row['videoname']; ?></a>
+                            </p>
+                        </li>
+                    <?php
+                    }
+                    ?>
                 </ul>
             </div>
 
