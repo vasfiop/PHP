@@ -17,7 +17,8 @@ $file_name = file_upload_check\Get_File_name($file);
 file_upload_check\Move_File($file, "../posters/" . $file_name);
 // 数据库环节
 Sqli\sqli_init();
-$count = my_sql\AddVideo($videoname, $videotype, $file_name, $videointro, $address);
+$admin_id = $_SESSION['admin_id'];
+$count = my_sql\AddVideo($videoname, $videotype, $file_name, $admin_id, $videointro, $address);
 if ($count != 1)
     redirect('videoAdd.php', '添加失败,3秒返回添加');
 else

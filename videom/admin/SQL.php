@@ -34,9 +34,9 @@ function GetVideoType() // 获取所有视频类型
     return $list;
 }
 
-function AddVideo($videoname, $videotype, $filename, $videointro, $address) // 添加视频
+function AddVideo($videoname, $videotype, $filename, $admin_id, $videointro, $address) // 添加视频
 {
-    $sql = "insert into videos values(null,'$videoname','$videotype','$videointro',now(),'$filename','$address')";
+    $sql = "insert into videos values(null,'$videoname','$videotype','$filename','$videointro',now(),$admin_id,0,0,'$address')";
 
     $list = sqli_update($sql);
 
@@ -184,5 +184,11 @@ function GetAdminById($adminid)
 function GetScoreById($vid)
 {
     $sql = "SELECT avg(score) from levels where vid = $vid";
+    return sqli_get_list($sql);
+}
+function GetVideoByTypeId($tid)
+{
+    $sql = "SELECT * from videos where tid = $tid";
+
     return sqli_get_list($sql);
 }

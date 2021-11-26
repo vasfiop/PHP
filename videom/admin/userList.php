@@ -40,7 +40,7 @@ $count = mysqli_num_rows($list);
             $sex =  $row['gender'] == '1' ? '女' : '男';
             echo "<td>" . $sex . "</td>";
             echo "<td>" . $row['tel'] . "</td>";
-            echo "<td><img src=\"../image/" . $row['photo'] . "\" style=\"width:20%;height:20%;\"></td>";
+            echo "<td><img src=\"../images/" . $row['photo'] . "\" style=\"width:20%;height:20%;\"></td>";
             echo "<td>" . $row["email"] . "</td>";
             echo '<td><a href="userEdit.php?id=' . $row['uid'] . '">修改</a>|' .
                 '<a href="doUserDelete.php?tid=' . $row['uid'] . '" onclick="return confirm(\'你确定吗?\')">删除</a></td>';

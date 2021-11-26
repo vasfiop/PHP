@@ -18,7 +18,7 @@ if ($file['error'] == 4)  // 没有文件上传
 else {
     file_upload_check\file_upload_extension($file, "pic");
     $file_name = file_upload_check\Get_File_name($file);
-    file_upload_check\Move_File($file, "../image/" . $file_name);
+    file_upload_check\Move_File($file, "../images/" . $file_name);
     $sql = "update users set uname='$uname',gender=$sex,tel='$tel',email='$email',photo='$file_name' where uid = $uid";
 }
 

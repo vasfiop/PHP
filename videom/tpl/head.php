@@ -65,7 +65,6 @@ $list = my_sql\GetVideoType();
 	</nav>
 
 	<!-- /.navbar -->
-	<!-- TODO /注册模态框 -->
 	<div class="modal fade" id="reg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -88,7 +87,6 @@ $list = my_sql\GetVideoType();
 		</div>
 	</div>
 	<!-- /注册模态框结束 -->
-	<!-- TODO /登录模态框开始 -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">

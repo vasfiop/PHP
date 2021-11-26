@@ -77,7 +77,6 @@ $ranking = my_sql\GetVideoByRanking();
                             ?>
 
                         </ul>
-                        <!-- TODO list.php没有 -->
                         <p><a class="btn btn-default" href="list.html" role="button">更多 &raquo;</a></p>
                     </div>
                 <?php

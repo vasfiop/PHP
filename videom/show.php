@@ -92,7 +92,6 @@ $row = mysqli_fetch_assoc($list);
                         </tr>
                         <tr>
                             <td>下载地址</td>
-                            <!-- TODO 下载地址 -->
                             <td><a href="down.php?vid=<?php echo $row['vid']; ?>">点击这里下载</a></td>
                         </tr>
                         <tr>
@@ -101,7 +100,6 @@ $row = mysqli_fetch_assoc($list);
                                 <?php
                                 if (isset($_SESSION['user'])) {
                                 ?>
-                                    <!-- TODO onsubmit事件和deLevel提交地点 -->
                                     <form action="doLevel.php" method="post" onsubmit="check()" class="form-horizontal" name="f1">
                                         <input type="hidden" name="vid" value="<?php echo $row['vid']; ?>">
                                         <select name="level" required>
@@ -117,7 +115,6 @@ $row = mysqli_fetch_assoc($list);
                                 <?php
                                 } else {
                                 ?>
-                                    <!-- TODO onclick点击事件 -->
                                     <h3><a href="" data-toggle="modal" data-target="#login" onclick="func(<?php echo $row['vid'] ?>)">登陆</a>后可以评分</h3>
                                 <?php
                                 }
@@ -133,7 +130,6 @@ $row = mysqli_fetch_assoc($list);
 
                 <div class="col-lg-12">
                     <h2 class="intro-text text-center">内容简介
-                        <!-- TODO 内容简介 -->
                     </h2>
                 </div>
             </div>
@@ -143,7 +139,6 @@ $row = mysqli_fetch_assoc($list);
 
                 <div class="col-lg-12">
                     <h2 class="intro-text text-center">留言列表
-                        <!-- TODO 留言列表 -->
                     </h2>
                 </div>
             </div>
