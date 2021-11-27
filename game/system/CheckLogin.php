@@ -1,8 +1,7 @@
 <?php
 session_start();
-if (!isset($_SESSION['admin_name']))
+if (!isset($_SESSION['admin_id']))
     header("location:index.php");
-
 
 function redirect($address, $msg)
 {

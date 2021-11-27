@@ -19,3 +19,15 @@ function GetAdminByEmail($email, $password)
 
     return sqli_get_list($sql);
 }
+function UpdateAdminTime($aid)
+{
+    $sql = "UPDATE admin set a_lastlogintime = now() where aid = $aid";
+
+    return sqli_update($sql);
+}
+function GetAdminById($aid)
+{
+    $sql = "SELECT * from admin where aid = $aid";
+
+    return sqli_get_list($sql);
+}
