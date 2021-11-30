@@ -59,6 +59,7 @@ function file_upload_extension($file, $extension_array) // 第一个是文件，
     return true;
 }
 function Get_File_name($file)
+// 获得随机文件名
 {
     $file_extend = explode(".", $file["name"]);
     $address =  date('Ymdhis') . Get_Rand(000, 999) . "." . $file_extend[count($file_extend) - 1];

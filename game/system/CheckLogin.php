@@ -1,4 +1,7 @@
 <?php
+define('USERIMG', './resources/images/user/');
+define('COMMIMG', './resources/images/commodity/');
+
 session_start();
 if (!isset($_SESSION['admin_id']))
     header("location:index.php");

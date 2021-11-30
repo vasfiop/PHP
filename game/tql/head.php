@@ -9,11 +9,9 @@
 
     <link rel="stylesheet" href="./resources/WebContent/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./resources/WebContent/css/all_style.css">
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
     <script src="./resources/WebContent/jquery/jquery-3.6.0.min.js"></script>
-    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
     <script src="./resources/WebContent/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="./resources/WebContent/js/bs-custom-file-input.js"></script>
 </head>
 
 <body class="d-flex flex-column h-100">

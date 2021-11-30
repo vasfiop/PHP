@@ -6,6 +6,7 @@
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">Time</h4>
                     <p class="text-muted">
+                        <!-- TODO js动态时间 -->
                         北京时间：2120/22.11.11.11
                     </p>
                 </div>
