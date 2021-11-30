@@ -23,7 +23,8 @@ include_once("./tql/header.php");
                 上次登录时间：<?php echo $row['a_lastlogintime']; ?>
             </p>
             <p>
-                <a href="./data_center.php" class="btn btn-primary my-2">数据中心</a>
+                <a href="data_center.php" class="btn btn-primary my-2">数据中心</a>
+                <!-- TODO 安全中心 -->
                 <a href="#" class="btn btn-secondary my-2">安全中心</a>
             </p>
         </div>

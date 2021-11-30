@@ -34,11 +34,11 @@ include_once("./tql/header.php");
         <div class="col-md order-md-1">
             <h4 class="mb-3">添加商品类型</h4>
             <!-- TODO 添加商品类型的sql -->
-            <form class="needs-validation" novalidate action="" method="POST">
+            <form class="needs-validation" novalidate action="doTypeAdd.php" method="POST">
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="firstName">类型名称</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required name="t_name">
                         <div class="invalid-feedback">
                             类型名称是必填的
                         </div>

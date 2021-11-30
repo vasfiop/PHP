@@ -58,8 +58,10 @@ function sqli_update($sql)
 {
     global $con;
 
-    if (!sqli_check_connection())
-        return false;
+    if (!sqli_check_connection()) {
+        echo "数据库还未建立连接！";
+        exit();
+    }
 
     $result = mysqli_query($con, $sql);
     if (!$result)

@@ -1,4 +1,3 @@
-<!-- TODO 添加商品 -->
 <?php
 include_once("./tql/head.php");
 include_once("./include.php");
@@ -26,7 +25,7 @@ include_once("./tql/header.php");
         }, false)
     })();
     $(document).ready(function() {
-        bsCustomFileInput.init()
+        bsCustomFileInput.init();
     });
 </script>
 

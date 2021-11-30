@@ -33,7 +33,7 @@ else
         ?>
             <tr>
                 <!-- TODO 用户修改 -->
-                <td><a href="userEdit?uid=<?php echo $row['uid']; ?>"><?php echo $row['u_name']; ?></a></td>
+                <td><a href="userEdit.php?uid=<?php echo $row['uid']; ?>"><?php echo $row['u_name']; ?></a></td>
                 <td><?php echo $row['u_sex'] == '1' ? '男' : '女'; ?></td>
                 <td><?php echo $row['u_email']; ?></td>
                 <td><?php echo $row['u_telphone']; ?></td>

@@ -6,7 +6,6 @@ if (isset($_POST['search']))
 else
     $list = commodity\GetCommodity();
 ?>
-<!-- TODO 查看商品列表 -->
 <h3 class="text-center">
     商品列表
 </h3>

@@ -6,6 +6,12 @@ if (isset($_POST['search']))
 else
     $list = type\GetType();
 ?>
+<script>
+    <?php
+    if (isset($_GET['success']))
+        echo "alert(\"删除失败！请联系作者！\");";
+    ?>
+</script>
 <h3 class="text-center">
     商品类型列表
 </h3>
@@ -28,11 +34,9 @@ else
             <tr>
                 <td><?php echo $row['t_name']; ?></td>
                 <td>
-                    <!-- TODO 类型修改 -->
                     <a type="button" class="btn btn-sm btn-outline-primary" href="typeEdit.php?tid=<?php echo $row['tid']; ?>">
                         修改
                     </a>
-                    <!-- TODO 类型删除 -->
                     <a type="button" class="btn btn-sm btn-outline-danger" href="doTypeDelete?tid=<?php echo $row['tid']; ?>" onclick="return confirm('你确定删除该类型吗?')">
                         删除
                     </a>
