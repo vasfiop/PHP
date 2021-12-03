@@ -18,10 +18,9 @@ else
 <table class="table table-sm table-bordered">
     <thead>
         <tr>
-            <th>昵称</th>
+            <th>用户昵称</th>
             <th>冻结时间</th>
             <th>操作者</th>
-            <th>操作</th>
         </tr>
     </thead>
     <tbody>
@@ -29,15 +28,9 @@ else
         while ($row = mysqli_fetch_assoc($list)) {
         ?>
             <tr>
-                <td><a href=""><?php echo $row['u_name']; ?></a></td>
+                <td><a href="userEdit.php?uid=<?php echo $row['uid']; ?>"><?php echo $row['u_name']; ?></a></td>
                 <td><?php echo $row['createtime']; ?></td>
                 <td><?php echo $row['a_name']; ?></td>
-                <td>
-                    <!-- TODO 用户解冻 -->
-                    <a type="button" class="btn btn-sm btn-outline-warning" href="doFrozen.php?uid=<?php echo $row['uid']; ?>" onclick="return confirm('你确定冻结该用户吗?')">
-                        解冻
-                    </a>
-                </td>
             </tr>
         <?php
         }

@@ -46,7 +46,7 @@ function sqli_get_list($sql) // select
     if (is_bool($result))
         die("sql=$sql,查询失败!<br>" . mysqli_error($con) . "<br>");
 
-    if (!($result->num_rows))
+    if ($result->num_rows == 0)
         return $result;
 
     if (!sqli_check_select($result))

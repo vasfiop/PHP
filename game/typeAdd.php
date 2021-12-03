@@ -33,7 +33,6 @@ include_once("./tql/header.php");
 
         <div class="col-md order-md-1">
             <h4 class="mb-3">添加商品类型</h4>
-            <!-- TODO 添加商品类型的sql -->
             <form class="needs-validation" novalidate action="doTypeAdd.php" method="POST">
                 <div class="row">
                     <div class="col-md-6 mb-3">

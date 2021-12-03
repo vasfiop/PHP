@@ -6,6 +6,15 @@ if (isset($_POST['search']))
 else
     $list = user\GetUser();
 ?>
+<script>
+    <?php
+    if (isset($_GET['msg'])) {
+    ?>
+        alert('<?php $_GET['msg'] ?>');
+    <?php
+    }
+    ?>
+</script>
 <h3 class="text-center">
     用户列表
 </h3>
@@ -32,22 +41,19 @@ else
         while ($row = mysqli_fetch_assoc($list)) {
         ?>
             <tr>
-                <!-- TODO 用户修改 -->
                 <td><a href="userEdit.php?uid=<?php echo $row['uid']; ?>"><?php echo $row['u_name']; ?></a></td>
                 <td><?php echo $row['u_sex'] == '1' ? '男' : '女'; ?></td>
                 <td><?php echo $row['u_email']; ?></td>
                 <td><?php echo $row['u_telphone']; ?></td>
                 <td><?php echo $row['u_createtime']; ?></td>
-                <td><?php echo $row['u_mode'] ? '冻结' : '正常'; ?></td>
+                <td><?php echo $row['u_mode'] ? '正常' : '<span class="badge badge-danger">被冻结</span>'; ?></td>
                 <td>
-                    <!-- TODO 用户冻结/解冻 -->
-                    <a type="button" class="btn btn-sm btn-outline-warning" href="doFrozen.php?uid=<?php echo $row['uid']; ?>" onclick="return confirm('你确定<?php echo $row['u_mode'] ? '解冻' : '冻结'; ?>该用户吗?')">
+                    <a type="button" class="btn btn-sm btn-outline-warning" href="doFrozen.php?uid=<?php echo $row['uid']; ?>" onclick="return confirm('你确定<?php echo $row['u_mode'] ? '冻结' : '解冻'; ?>该用户吗?')">
                         <?php
-                        echo $row['u_mode'] ? '解冻' : '冻结';
+                        echo $row['u_mode'] ? '冻结' : '解冻';
                         ?>
                     </a>
-                    <!-- TODO 用户删除 -->
-                    <a type="button" class="btn btn-sm btn-outline-danger" href="doUserDelete?uid=<?php echo $row['uid']; ?>" onclick="return confirm('你确定删除该用户吗?')">
+                    <a type="button" class="btn btn-sm btn-outline-danger" href="doUserDelete.php?uid=<?php echo $row['uid']; ?>" onclick="return confirm('你确定删除该用户吗?')">
                         删除
                     </a>
                 </td>

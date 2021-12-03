@@ -9,20 +9,22 @@ $u_sex = $_POST['u_sex'];
 $file = $_FILES['file'];
 $old_file = $_POST['old_pic'];
 
-
 Sqli\sqli_init();
 
 // 处理邮箱
-// FIXME 有bug 邮箱和手机号验证无效
 $list = user\GetUserByEmail($u_email);
 $row = Sqli\sqli_get_map($list);
-if ($row['uid'] != $uid && $list->num_rows != 0)
+if ($row['uid'] != $uid && $list->num_rows != 0) {
     header("location:userEdit.php?uid=$uid&msg=该邮箱已被注册过！");
+    exit();
+}
 // 处理手机号
 $list = user\GetUserByTel($u_tel);
 $row = Sqli\sqli_get_map($list);
-if ($row['uid'] != $uid && $list->num_rows != 0)
+if ($row['uid'] != $uid && $list->num_rows != 0) {
     header("location:userEdit.php?uid=$uid&msg=该手机号已被注册过！");
+    exit();
+}
 //  处理文件
 if ($file['error'] == 4) // 如果未上传文件
     $success = user\Update($uid, $u_name, $u_tel, $u_sex, null, $u_email);
@@ -38,7 +40,10 @@ if ($success && $old_file != "default.pic") {
     if (file_exists(USERIMG . $old_pic))
         unlink(USERIMG . $old_pic);
 }
-if ($success)
+if ($success) {
     header("location:userList.php");
-else
+    exit();
+} else {
     header("location:userEdit.php?uid=$uid&success=$success");
+    exit();
+}

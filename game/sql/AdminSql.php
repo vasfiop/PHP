@@ -7,15 +7,15 @@ use function Sqli\sqli_update;
 
 include_once("../Util/mysqli.php");
 
-function GetAdminByTel($tel, $password)
+function GetAdminByEmailPass($email, $password)
 {
-    $sql = "SELECT * FROM admin WHERE a_telephone = '$tel' AND a_password = md5($password)";
+    $sql = "SELECT * FROM admin where a_email = '$email' and a_password = md5($password)";
 
     return sqli_get_list($sql);
 }
-function GetAdminByEmail($email, $password)
+function GetAdminByEmail($email)
 {
-    $sql = "SELECT * FROM admin where a_email = '$email' and a_password = md5($password)";
+    $sql = "SELECT * FROM admin where a_email = '$email'";
 
     return sqli_get_list($sql);
 }
@@ -30,4 +30,16 @@ function GetAdminById($aid)
     $sql = "SELECT * from admin where aid = $aid";
 
     return sqli_get_list($sql);
+}
+function GetAdminByTel($a_telphone)
+{
+    $sql = "SELECT * FROM admin WHERE a_telphone = '$a_telphone'";
+
+    return sqli_get_list($sql);
+}
+function Insert($a_name, $a_email, $a_telphone, $a_password)
+{
+    $sql = "INSERT INTO admin VALUES(null,'$a_name',md5($a_password), now() , '$a_email' , '$a_telphone' , now() , 1)";
+
+    return sqli_update($sql);
 }

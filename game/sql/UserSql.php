@@ -46,3 +46,15 @@ function GetUserByTel($u_telphone)
 
     return sqli_get_list($sql);
 }
+function Delete($uid)
+{
+    $sql = "DELETE from user where uid = $uid";
+
+    return sqli_update($sql);
+}
+function Frozen($uid, $u_mode)
+{
+    $sql = "UPDATE user set u_mode = $u_mode where uid = $uid";
+
+    return sqli_update($sql);
+}

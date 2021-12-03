@@ -43,8 +43,7 @@
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
-        <!-- TODO 注册 -->
-        <a class="btn btn-lg btn-outline-secondary btn-block" type="button">注册</a>
+        <a href="register.php" class="btn btn-lg btn-outline-secondary btn-block" type="button">注册</a>
         <!-- TODO 忘记密码 -->
         <a href="">忘记密码</a>
         <p class="mt-5 mb-3 text-muted">&copy; 2017-2021</p>
