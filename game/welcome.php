@@ -24,8 +24,8 @@ include_once("./tql/header.php");
             </p>
             <p>
                 <a href="data_center.php" class="btn btn-primary my-2">数据中心</a>
-                <!-- TODO 安全中心 -->
-                <a href="#" class="btn btn-secondary my-2">安全中心</a>
+                
+                <a href="completeCenter.php" class="btn btn-secondary my-2">安全中心</a>
             </p>
         </div>
     </section>
