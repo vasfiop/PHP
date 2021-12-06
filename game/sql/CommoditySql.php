@@ -19,7 +19,7 @@ function GetCommodityBySearch($search)
 }
 function InsertInto($c_name, $c_area, $file, $type)
 {
-    $sql = "INSERT INTO commodity VALUES(null,'$c_name',$type,'$c_area','$file')";
+    $sql = "INSERT INTO commodity VALUES(null,'$c_name',$type,'$c_area','$file',null,null)";
 
     return sqli_update($sql);
 }
