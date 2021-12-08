@@ -1,13 +1,17 @@
 <?php
 include_once("./include.php");
-session_start();
-$count = $_GET['count'];
-$new_id = $_GET['new_id'];
-$new_admin = $_SESSION['new_admin'];
-$this_admin = $new_admin[number_format($count)][$new_id];
-unset($_SESSION['new_admin']);
+$a_email = $_POST['a_email'];
+$password1 = $_POST['password1'];
+
 Sqli\sqli_init();
-$success = admin\Insert($this_admin[0], $this_admin[1], $this_admin[2], $this_admin[3]);
+$success = admin\UpdatePassword($password1, $a_email);
+if ($success)
+    $list = admin\GetAdminByEmail($a_email);
+else {
+    header("location:index.php?success=false&msg=遇到了未知错误");
+    exit;
+}
+$row = Sqli\sqli_get_map($list);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +36,7 @@ $success = admin\Insert($this_admin[0], $this_admin[1], $this_admin[2], $this_ad
         <h4>
             验证成功！
         </h4>
-        尊敬的<?php echo $this_admin[0] ?>,您已成功注册账户
+        尊敬的<?php echo $row['a_name']; ?>,您已成功修改密码
         3秒返回登陆页面
     </div>
 </body>

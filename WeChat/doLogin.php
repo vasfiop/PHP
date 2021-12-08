@@ -1,6 +1,7 @@
 <?php
 // 用户登录
 include_once("include.php");
+Sqli\sqli_init();
 $array = array();
 if (!isset($_POST['u_email']) && !isset($_POST['u_password'])) {
     $array = array("success" => false, "msg" => "没有输入信息");

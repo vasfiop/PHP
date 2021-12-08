@@ -43,3 +43,9 @@ function Insert($a_name, $a_email, $a_telphone, $a_password)
 
     return sqli_update($sql);
 }
+function UpdatePassword($password, $a_email)
+{
+    $sql = "UPDATE admin set a_password = md5($password) where a_email = '$a_email'";
+
+    return sqli_update($sql);
+}

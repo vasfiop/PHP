@@ -14,3 +14,5 @@ while ($row = Sqli\sqli_get_map($list)) {
 
 $json = json_encode($array);
 echo $json;
+
+// TODO 把这个页面改成 num=请求个数 ssid=请求的小类型，让这个页面变得动态化

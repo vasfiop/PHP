@@ -1,39 +1,21 @@
 <?php
-include_once("./include.php");
+include_once("include.php");
 
-$a_name = $_POST['a_name'];
 $a_email = $_POST['a_email'];
-$a_telphone = $_POST['a_telphone'];
-$password = $_POST['password'];
-$password_two = $_POST['password_two'];
-if ($password != $password_two) {
-    header("location:register.php?msg=两次密码输入不一致!");
-    exit();
-}
+
 Sqli\sqli_init();
 $list = admin\GetAdminByEmail($a_email);
-if ($list->num_rows != 0) {
-    header("location:register.php?msg=该邮箱已被注册!");
-    exit();
-}
-$list = admin\GetAdminByTel($a_telphone);
-if ($list->num_rows != 0) {
-    header("location:register.php?msg=该手机号已被注册!");
+if ($list->num_rows == 0) {
+    header("Location:forgetPassword.php?success=false&msg=为找到此用户，请输入正确的账号");
     exit();
 }
 
 session_start();
-if (!isset($_SESSION['new_admin']))
-    $new_admin = array();
-else
-    $new_admin = $_SESSION['new_admin'];
 
-$num = count($new_admin);
 $new_id = date('dhis') . rand();
-array_push($new_admin, array($new_id => array($a_name, $a_email, $a_telphone, $password)));
-$_SESSION['new_admin'] = $new_admin;
-$url = "http://460d80b632.zicp.vip/game/check.php?count=$num&new_id=$new_id";
-$content = "[后台管理系统] 尊敬的$a_name :我们收到了您 注册的申请 确认无误后请点击下连接确认操作：$url \n如非本人操作，请无视该邮件.";
+$_SESSION[$new_id] = $a_email;
+$url = "http://460d80b632.zicp.vip/game/changePassword.php?new_id=$new_id";
+$content = "[后台管理系统] 尊敬的$a_email :我们收到了您 修改密码的申请 确认无误后请点击下连接确认操作：$url\n如非本人操作，请无视该邮件.";
 Email\sendMail($a_email, "后台管理系统验证", $content);
 ?>
 <!DOCTYPE html>
