@@ -7,8 +7,9 @@ include_once("../Util/mysqli.php");
 include_once("SQL/sort.php");
 include_once("SQL/commodity.php");
 include_once("SQL/user.php");
+include_once("SQL/brand.php");
 
 $img_src = "http://460d80b632.zicp.vip/game/resources/images/commodity/";
 $user_src = "http://460d80b632.zicp.vip/game/resources/images/user/";
+$brand_src = "http://460d80b632.zicp.vip/game/resources/images/brand/";
 session_start();
-?>

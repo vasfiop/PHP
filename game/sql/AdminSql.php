@@ -49,3 +49,9 @@ function UpdatePassword($password, $a_email)
 
     return sqli_update($sql);
 }
+function UpdateNameTel($aid, $a_name, $a_telphone)
+{
+    $sql = "UPDATE admin set a_name = '$a_name' , a_telphone = '$a_telphone' where aid = $aid";
+
+    return sqli_update($sql);
+}

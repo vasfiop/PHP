@@ -11,6 +11,7 @@ $uid = $_GET["tid"];
 // 处理头像
 $count = my_sql\GetUserPic($uid);
 $row = mysqli_fetch_assoc($count);
+
 if (file_exists("../image/" . $row['photo']))
    unlink("../image/" . $row['photo']);
 

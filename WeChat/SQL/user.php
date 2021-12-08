@@ -18,9 +18,9 @@ function GetUserByEmail($u_email)
 
     return sqli_get_list($sql);
 }
-function Insert($u_name, $u_email, $u_password)
+function Insert($u_name, $u_email, $u_password, $filename, $sex)
 {
-    $sql = "INSERT INTO user VALUES(null,'$u_name',md5($u_password), '$u_email' , null , now() , 1,0,NULL)";
+    $sql = "INSERT INTO user VALUES(null,'$u_name',md5($u_password), '$u_email' , null , now() , 1,$sex,'$filename',0,0)";
 
     return sqli_update($sql);
 }

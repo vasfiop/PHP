@@ -9,7 +9,7 @@ include_once("./tql/header.php");
         <div class="col-md-3">
             <div class="card">
                 <div class="card-body">
-                    <a class="card-text" href="passwordUpdate.php">
+                    <a class="card-text" href="adminUpdate.php">
                         更改个人资料
                     </a>
                 </div>

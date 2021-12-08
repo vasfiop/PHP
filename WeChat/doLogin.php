@@ -19,5 +19,11 @@ if (!isset($_POST['u_email']) && !isset($_POST['u_password'])) {
         $_SESSION['uid'] = $row['uid'];
     }
 }
+srand($row['uid']);
+$rand_num;
+for ($i = 0; $i < 4; $i++)
+    $rand_num[$i] = rand(0, 100);
+$array[1] = $rand_num;
+$array[0]['u_shop'] = rand(0, 10);
 $json = json_encode($array);
 echo $json;

@@ -71,7 +71,7 @@ $last_min = $array[1];
     <div class="row">
         <div class="col-md order-md-1">
             <!-- TODO admin更新个人资料 -->
-            <form class="needs-validation" novalidate method="POST" action="">
+            <form class="needs-validation" novalidate method="POST" action="doAdminUpdate.php">
                 <div class="row">
                     <input type="hidden" value="<?php echo $aid; ?>" name="aid">
                     <div class="col-md-6 mb-3">
