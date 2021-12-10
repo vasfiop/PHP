@@ -1,4 +1,5 @@
 <?php
+// TODO 参数过少需要调整 建议仿照老师的json
 include_once("include.php");
 $array = array();
 Sqli\sqli_init();

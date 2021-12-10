@@ -1,0 +1,12 @@
+<?php
+
+namespace WeChatorder;
+
+use function Sqli\sqli_get_list;
+use function Sqli\sqli_update;
+
+function Insert($cid,$uid,$o_num){
+    $sql = "INSERT into commodityorder value(null,$cid,$uid,0,$o_num)";
+
+    return sqli_update($sql);
+}
