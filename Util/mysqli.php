@@ -7,7 +7,7 @@ use mysqli_result;
 define('DB_HOST', "localhost");
 define('DB_USERNAME', "root");
 define('DB_PASSWORD', "");
-define('DB_PORT', "game");
+define('DB_PORT', "neuvideo");
 
 static $con = null;
 

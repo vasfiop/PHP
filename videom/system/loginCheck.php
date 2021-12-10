@@ -1,8 +1,16 @@
 <!-- loginCheck.php -->
 <?php
 session_start();
-if (!isset($_SESSION['admin_name']))
+if (!isset($_SESSION['admin_name'])) {
 	header("location:index.php");
+	echo "没登陆";
+	var_dump($_SESSION);
+	// exit;
+} else {
+	echo "登陆了";
+	var_dump($_SESSION);
+}
+
 
 function redirect($address, $msg)
 {

@@ -17,9 +17,8 @@ $count = mysqli_num_rows($list);
 if ($count > 0) {
     $_SESSION["admin_name"] = $adminName;
     $_SESSION['admin_id'] = $row['adminid'];
-    $_SESSION['admin'] = $row;
     header("location:welcome.php");
 } else
-    redirect('index.php', '登录失败,3秒返回视频列表');
+    redirect('index.php', '登录失败,3秒返回首页');
 
 include_once("tpl/footer.php");

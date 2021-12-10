@@ -1,9 +1,20 @@
 <?php
 include_once("./include.php");
-$a_email = $_POST['a_email'];
-$password1 = $_POST['password1'];
+
 
 Sqli\sqli_init();
+
+if (!isset($_POST['a_email'])) {
+    include_once("./system/CheckLogin.php");
+    $aid = $_SESSION['admin_id'];
+    $list = admin\GetAdminById($aid);
+    $row = Sqli\sqli_get_map($list);
+    $a_email = $row['a_email'];
+} else
+    $a_email = $_POST['a_email'];
+$password1 = $_POST['password1'];
+
+
 $success = admin\UpdatePassword($password1, $a_email);
 if ($success)
     $list = admin\GetAdminByEmail($a_email);

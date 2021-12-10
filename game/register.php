@@ -47,7 +47,7 @@
         if (isset($_GET['msg'])) {
         ?>
             <div class="alert alert-dismissable alert-danger">
-                <button type="button" class="close" data - dismiss="alert" aria - hidden="true">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
                     ×
                 </button>
                 <?php

@@ -1,0 +1,79 @@
+/* CSS Document */
+
+body{
+background-color: #FFFFCC;
+margin-left:160px;
+margin-top:50px;
+margin-right:auto;
+margin-bottom:auto;
+}
+.border{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+border:#33FF66 1px dashed;
+background-color: #FFFFCC;
+}
+.border1{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+border:#33FF66 1px dashed;
+background-color: #CCFFFF;
+}
+.border2{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+border:#33FF66 1px dashed;
+}
+.bk{
+border-left:#FF3300 1px solid;
+border-top:#FF3300 1px solid;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+.bk1{
+border-left:#FF3300 1px solid;
+border-top:#FF3300 1px solid;
+border-right:#FF3300 1px solid;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+.bk2{
+border:#FF3300 1px solid;
+border-right:none;
+}
+.bk3{
+border:#FF3300 1px solid;
+}
+.lj a:link {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666666;
+	text-decoration: none;
+}
+.lj a:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration: none;
+	color:#0099FF;
+}
+.lj a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration: none;
+}
+.lj a:active {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration: none;
+}
+.login{
+	font-family:"ËÎÌו-PUA";
+	font-size:16px;
+	color:#0099FF;
+}
+.but{
+	width:150px;
+	height:15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}

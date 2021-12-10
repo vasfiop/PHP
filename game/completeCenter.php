@@ -15,7 +15,7 @@ include_once("./tql/header.php");
                 </div>
                 <div class="card-body">
                     <!-- TODO 更改密码 -->
-                    <a class="card-text" href="">
+                    <a class="card-text" href="adminPassword.php">
                         更改密码
                     </a>
                 </div>

@@ -1,28 +1,34 @@
-<br />
-<font size='1'>
-    <table class='xdebug-error xe-uncaught-exception' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
-        <tr>
-            <th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Fatal error: Uncaught Error: Cannot use object of type mysqli_result as array in D:\wamp64\www\WeChat\doLogin.php on line <i>25</i></th>
-        </tr>
-        <tr>
-            <th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Error: Cannot use object of type mysqli_result as array in D:\wamp64\www\WeChat\doLogin.php on line <i>25</i></th>
-        </tr>
-        <tr>
-            <th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th>
-        </tr>
-        <tr>
-            <th align='center' bgcolor='#eeeeec'>#</th>
-            <th align='left' bgcolor='#eeeeec'>Time</th>
-            <th align='left' bgcolor='#eeeeec'>Memory</th>
-            <th align='left' bgcolor='#eeeeec'>Function</th>
-            <th align='left' bgcolor='#eeeeec'>Location</th>
-        </tr>
-        <tr>
-            <td bgcolor='#eeeeec' align='center'>1</td>
-            <td bgcolor='#eeeeec' align='center'>0.0002</td>
-            <td bgcolor='#eeeeec' align='right'>403816</td>
-            <td bgcolor='#eeeeec'>{main}( )</td>
-            <td title='D:\wamp64\www\WeChat\doLogin.php' bgcolor='#eeeeec'>...\doLogin.php<b>:</b>0</td>
-        </tr>
-    </table>
-</font>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .checkbox-lable {
+            display: block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+        .checkbox:checked+.checkbox-lable {
+            display: block;
+            background-color: red;
+        }
+
+        .checkbox {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="color-input-red" class="checkbox" type="checkbox" />
+    <label for="color-input-red" class="checkbox-lable"></label>
+</body>
+
+</html>

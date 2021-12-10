@@ -55,3 +55,8 @@ function UpdateNameTel($aid, $a_name, $a_telphone)
 
     return sqli_update($sql);
 }
+function GetAdminByIdPass($aid, $a_password)
+{
+    $sql = "SELECT * from admin where aid = $aid and a_password = md5($a_password)";
+    return sqli_get_list($sql);
+}

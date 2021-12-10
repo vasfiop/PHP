@@ -36,3 +36,9 @@ function GetCommByNumSsid($num, $ssid)
 
     return sqli_get_list($sql);
 }
+function GetCommBySmallsort($ssid)
+{
+    $sql = "SELECT * from commodity where ssid = $ssid";
+
+    return sqli_get_list($sql);
+}
