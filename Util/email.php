@@ -31,5 +31,5 @@ function sendMail($to, $title, $content) // to=收件人邮箱 title=发件标�
     $mail->addAddress($to);
     $mail->Subject = $title;
     $mail->Body = $content;
-    return $mail->send();
+    $mail->send();
 }

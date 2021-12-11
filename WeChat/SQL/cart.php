@@ -24,8 +24,14 @@ function GetCartByScid($scid)
     return sqli_get_list($sql);
 }
 function Delete($scid)
-{   
+{
     $sql = "DELETE from shoppingcart where scid = $scid";
+
+    return sqli_update($sql);
+}
+function Insert($uid, $cid)
+{
+    $sql = "INSERT into shoppingcart value(null,$uid,$cid,0,1)";
 
     return sqli_update($sql);
 }

@@ -19,7 +19,7 @@ for ($i = 0; $i < $num; $i++) {
     for ($j = 0; $j < $numrand[$i]; $j++)
         $row = Sqli\sqli_get_map($list);
     $row['c_pic'] = $img_src . $row['c_pic'];
-    array_push($array, array("c_pic" => $row['c_pic']));
+    array_push($array, $row);
 }
 $json = json_encode($array);
 echo $json;

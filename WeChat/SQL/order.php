@@ -10,3 +10,8 @@ function Insert($cid,$uid,$o_num){
 
     return sqli_update($sql);
 }
+function GetOrderByUid($uid){
+    $sql = "SELECT * from commodityorder where uid = $uid";
+
+    return sqli_get_list($sql);
+}

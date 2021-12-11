@@ -24,3 +24,27 @@ function Insert($u_name, $u_email, $u_password, $filename, $sex, $u_telphone)
 
     return sqli_update($sql);
 }
+function GetUserByUid($uid)
+{
+    $sql = "SELECT * from user where uid = $uid";
+
+    return sqli_get_list($sql);
+}
+function UpdateCollection($uid, $u_collection)
+{
+    $sql = "UPDATE user set u_collection = $u_collection where uid = $uid";
+
+    return  sqli_update($sql);
+}
+function UpdateHistory($uid, $u_history)
+{
+    $sql = "UPDATE user set u_history = $u_history where uid = $uid";
+
+    return sqli_update($sql);
+}
+function UpdatePasswordByEmail($u_email,$u_password)
+{
+    $sql = "UPDATE user set u_password = md5($u_password) where  u_email = '$u_email'";
+
+    return sqli_update($sql);
+}

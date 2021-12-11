@@ -16,9 +16,12 @@
 | `12_find_password` | 使用php发送邮件的系统，找回用户密码练习 |
 | `13_homeword_file_upload` | 课后作业，文件上传处理 |
 | `14_ECharts` | ECharts生成图表 |
+| `15_najie` | 娜姐买的大作业 |
 | `PHPMailer` | PHP发送邮件插件 |
 | `echarts-5.2.2`  | 生成图标插件 |
 | `ueditor-dev-1.5.0` | 富文本编辑器插件 |
 | `video` | 三级项目 |
 | `videom` | 前端框架三级项目 |
 | `Uitl` | 我自己写的函数工具包 |
+| `game` | 大作业 |
+| `WeChat` | 微信小程序的后台 |
