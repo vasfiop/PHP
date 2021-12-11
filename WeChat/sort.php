@@ -3,15 +3,21 @@
 include_once("include.php");
 $array = array();
 Sqli\sqli_init();
-$smallsort = WechatSmallsort\GetSmallsort();
-while ($row = Sqli\sqli_get_map($smallsort)) {
-    $comm_list = WeChatcommodity\GetCommBySmallsort($row['ssid']);
-    $array_list = array();
-    while ($comm_list->num_rows != 0 && $map = Sqli\sqli_get_map($comm_list)) {
-        $map['c_pic'] = $img_src . $map['c_pic'];
-        array_push($array_list, $map);
+$list = WeChatsort\GetSort();
+while ($row = Sqli\sqli_get_map($list)) {
+    $item = $row;
+    $smallsort = WechatSmallsort\GetSmallsortBySid($row['sid']);
+    $item['smallsort'] = array();
+    while ($smallsort_row = Sqli\sqli_get_map($smallsort)) {
+        $ss_item = $smallsort_row;
+        $ss_item['commodity'] = array();
+        $comm_list = WeChatcommodity\GetCommBySmallsort($smallsort_row['ssid']);
+        while ($comm_row = Sqli\sqli_get_map($comm_list)) {
+            array_push($ss_item['commodity'], $comm_row);
+        }
+        array_push($item['smallsort'], $ss_item);
     }
-    array_push($array, $array_list);
+    array_push($array, $item);
 }
 $json = json_encode($array);
 echo $json;

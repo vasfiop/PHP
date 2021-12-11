@@ -1,9 +1,13 @@
 <?php
+include_once("include.php");
+Sqli\sqli_init();
 $ssid = $_POST['ssid'];
-$array = explode($ssid, ',');
+$array = explode(',', $ssid);
 $ret_arr = array("success" => true);
 for ($c = 0; $c < count($array); $c++) {
     $item = $array[$c];
+    if ($item == 0)
+        continue;
     $list = WeChatCart\GetCartByScid($item);
     $row = Sqli\sqli_get_map($list);
     $success = WeChatorder\Insert($row['cid'], $row['uid'], $row['sc_num']);

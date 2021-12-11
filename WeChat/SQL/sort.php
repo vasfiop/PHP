@@ -13,3 +13,9 @@ function GetSortByNum($num)
 
     return sqli_get_list($sql);
 }
+function GetSort()
+{
+    $sql = "SELECT * from sort order by sid ";
+
+    return sqli_get_list($sql);
+}

@@ -10,3 +10,9 @@ function GetSmallsort()
 
     return sqli_get_list($sql);
 }
+function GetSmallsortBySid($sid)
+{
+    $sql = "SELECT * from smallsort where sid = $sid";
+
+    return sqli_get_list($sql);
+}
