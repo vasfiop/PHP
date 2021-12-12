@@ -1,0 +1,47 @@
+[2021-12-12 10:33:15.000000]	/16_shiyou/message-board/
+[GET 参数]	Array
+(
+)
+
+[POST 参数]	Array
+(
+)
+
+---------------------------------------------
+
+[2021-12-12 10:33:19.000000]	/16_shiyou/message-board/login.php
+[GET 参数]	Array
+(
+)
+
+[POST 参数]	Array
+(
+)
+
+---------------------------------------------
+
+[2021-12-12 10:33:35.000000]	/16_shiyou/message-board/login.php?action=login
+[GET 参数]	Array
+(
+    [action] => login
+)
+
+[POST 参数]	Array
+(
+    [account] => 12345678
+    [password] => 12345678
+)
+
+---------------------------------------------
+
+[2021-12-12 10:33:36.000000]	/16_shiyou/message-board/index.php
+[GET 参数]	Array
+(
+)
+
+[POST 参数]	Array
+(
+)
+
+---------------------------------------------
+

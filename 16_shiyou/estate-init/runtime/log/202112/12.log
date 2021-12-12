@@ -1,0 +1,1788 @@
+---------------------------------------------------------------
+[ 2021-12-12T15:53:29+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php [运行时间：0.083791s][吞吐率：11.93req/s] [内存消耗：569.51kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003478s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000710s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000486s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:53:44+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php [运行时间：0.011539s][吞吐率：86.66req/s] [内存消耗：351.92kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000874s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000265s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:53:45+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php [运行时间：0.017126s][吞吐率：58.39req/s] [内存消耗：465.34kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000691s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/new/estate-init/public/admin.php',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000212s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:53:49+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295625
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295625 [运行时间：0.018291s][吞吐率：54.67req/s] [内存消耗：380.24kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001136s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1639295625',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000482s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000328s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:56:17+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php [运行时间：0.060355s][吞吐率：16.57req/s] [内存消耗：547.17kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001373s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '74',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/new/estate-init/public/admin.php',
+  '__token__' => '7711fb6ae41664da193972155269993d',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000464s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2021-12-12T15:57:47+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php [运行时间：0.019780s][吞吐率：50.56req/s] [内存消耗：382.71kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001153s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/new/estate-init/public/admin.php',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000460s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000314s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:57:48+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295867
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295867 [运行时间：0.013469s][吞吐率：74.24req/s] [内存消耗：379.05kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001195s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1639295867',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000451s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000304s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:57:51+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php [运行时间：0.181121s][吞吐率：5.52req/s] [内存消耗：549.26kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000840s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '74',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/new/estate-init/public/admin.php',
+  '__token__' => '7b19b7bc91da5e3f1d5a02c1e1183390',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000283s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.034518s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026069s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin` [ RunTime:0.048828s ]
+[ sql ] [ SQL ] SELECT * FROM `es_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] UPDATE `es_admin`  SET `logintime`=1639295871,`token`='7283fcc2-e66f-45fc-be8c-ce5d59df5dd4',`updatetime`=1639295871  WHERE  `id` = 1 [ RunTime:0.054816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001913s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/new\\/estate-init\\/public\\/admin.php\",\"__token__\":\"7b19b7bc91da5e3f1d5a02c1e1183390\",\"username\":\"admin\"}' , '/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53' , '10.197.29.160' , 1639295871) [ RunTime:0.031302s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:57:51+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php [运行时间：0.124852s][吞吐率：8.01req/s] [内存消耗：919.64kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000683s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000210s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015832s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.002569s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001927s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `es_auth_rule` WHERE  `ismenu` = 1 ORDER BY `weigh`  desc [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:57:53+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295871
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295871 [运行时间：0.009039s][吞吐率：110.63req/s] [内存消耗：399.79kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000695s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1639295871',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000214s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000292s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:57:55+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/community/index
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/community/index [运行时间：0.051478s][吞吐率：19.43req/s] [内存消耗：798.07kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000797s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'community.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000248s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/community/index.php
+[ info ] [ RUN ] app\admin\controller\community\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\community\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\community\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admins',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000181s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020842s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001964s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin` [ RunTime:0.001904s ]
+[ sql ] [ SQL ] SELECT `id`,concat(nickname,' [',`username`,']') as name FROM `es_admin` WHERE  `status` = 'normal' [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'community/index' LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:57:57+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php [运行时间：0.063629s][吞吐率：15.72req/s] [内存消耗：895.37kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000690s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000211s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014212s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001782s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:57:59+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295877
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=index&v=1639295877 [运行时间：0.011077s][吞吐率：90.28req/s] [内存消耗：399.79kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000800s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1639295877',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000266s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000183s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:58:02+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/dashboard?addtabs=1
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?addtabs=1 [运行时间：0.060610s][吞吐率：16.50req/s] [内存消耗：846.23kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000870s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000248s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'total_building',
+  7 => 'total_house',
+  8 => 'total_member',
+  9 => 'total_lease',
+  10 => 'total_parking_space',
+  11 => 'parking_space_percent',
+  12 => 'total_vehicle',
+  13 => 'total_pet',
+  14 => 'total_repair_pending',
+  15 => 'total_repair_processing',
+  16 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000198s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义变量: totaluser[D:\wamp64\www\new\estate-init\runtime\temp\b6980864143419e32e974a1f9f3f8284.php:214]
+[ error ] [8]未定义变量: totalviews[D:\wamp64\www\new\estate-init\runtime\temp\b6980864143419e32e974a1f9f3f8284.php:223]
+[ error ] [8]未定义变量: totalorder[D:\wamp64\www\new\estate-init\runtime\temp\b6980864143419e32e974a1f9f3f8284.php:232]
+[ error ] [8]未定义变量: totalorderamount[D:\wamp64\www\new\estate-init\runtime\temp\b6980864143419e32e974a1f9f3f8284.php:241]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024545s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.002186s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001622s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:03+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1639295882
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1639295882 [运行时间：0.032416s][吞吐率：30.85req/s] [内存消耗：400.05kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001167s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1639295882',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000491s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000568s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:58:03+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/device/index?addtabs=1
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/device/index?addtabs=1 [运行时间：0.051875s][吞吐率：19.28req/s] [内存消耗：816.28kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000692s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'device.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/device/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000210s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/device/index.php
+[ info ] [ RUN ] app\admin\controller\device\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\device\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\device\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000144s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义变量: query[D:\wamp64\www\new\estate-init\runtime\temp\8c862ca77ea830508f301f215eb3955e.php:69]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019043s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.002018s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001950s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'device/index' LIMIT 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:05+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/expenses/index?addtabs=1
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index?addtabs=1 [运行时间：0.054300s][吞吐率：18.42req/s] [内存消耗：842.90kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000798s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'expenses.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000246s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/index.php
+[ info ] [ RUN ] app\admin\controller\expenses\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\expenses\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\expenses\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义变量: query[D:\wamp64\www\new\estate-init\runtime\temp\c979ca2f633a3a90ee68ea06726b4bee.php:69]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019335s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001907s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'expenses/index' LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:05+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/expenses/project?addtabs=1
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/project?addtabs=1 [运行时间：0.053403s][吞吐率：18.73req/s] [内存消耗：816.41kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001187s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'expenses.project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/project?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000442s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/project.php
+[ info ] [ RUN ] app\admin\controller\expenses\Project->index[ D:\wamp64\www\new\estate-init\application\admin\controller\expenses\Project.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\expenses\project\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000310s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义变量: query[D:\wamp64\www\new\estate-init\runtime\temp\4f7d3bc258b043a57b42a9c3ba7d2efa.php:69]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022016s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `es_auth_rule` WHERE  `name` = 'expenses/project' LIMIT 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:11+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=device.index&v=1639295883
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=device.index&v=1639295883 [运行时间：0.019040s][吞吐率：52.52req/s] [内存消耗：398.30kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000952s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/device/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'device.index',
+  'v' => '1639295883',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000270s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/device/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000174s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:58:14+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=expenses.index&v=1639295885
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=expenses.index&v=1639295885 [运行时间：0.017467s][吞吐率：57.25req/s] [内存消耗：398.11kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001138s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'expenses.index',
+  'v' => '1639295885',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000526s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000322s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:58:14+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=expenses.project&v=1639295885
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/ajax/lang?callback=define&controllername=expenses.project&v=1639295885 [运行时间：0.008230s][吞吐率：121.51req/s] [内存消耗：397.94kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000684s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => '*/*',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/project?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'expenses.project',
+  'v' => '1639295885',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wamp64\www\new\estate-init\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/project.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:58:15+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/dashboard/get_expenses
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard/get_expenses [运行时间：0.097351s][吞吐率：10.27req/s] [内存消耗：666.93kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000697s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_expenses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000216s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_expenses[ D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.052219s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ error ] [8]未定义数组下标: 0[D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php:205]
+[ error ] [8]未定义数组下标: 1[D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php:205]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021281s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001838s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001620s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] select m.mon,ifnull(total,0) as total,ifnull(paid,0) as paid from ( select concat(date_format(last_day(now() - interval 12 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 11 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 10 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 9 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 8 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 7 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 6 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 5 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 4 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 3 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 2 month),'%Y-%m'),'') as mon union all select concat(date_format(last_day(now() - interval 1 month),'%Y-%m'),'') as mon ) m left join (select sum(amount_total) as total,sum(amount_paid) as paid,from_unixtime(create_time,'%Y-%m') as create_time from es_expenses where community_code='CM2017110100001' group by from_unixtime(create_time,'%Y-%m')) e on (m.mon=e.create_time) [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001569s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/new/estate-init/public/admin.php/dashboard/get_expenses' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53' , '10.197.29.160' , 1639295895) [ RunTime:0.049365s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:15+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/dashboard/get_repair
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard/get_repair [运行时间：0.129610s][吞吐率：7.72req/s] [内存消耗：703.57kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000714s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_repair',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000212s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_repair[ D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\dashboard\repair.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'repair',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.034037s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.044650s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `es_repair` WHERE  `community_code` = 'CM2017110100001' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/new/estate-init/public/admin.php/dashboard/get_repair' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53' , '10.197.29.160' , 1639295895) [ RunTime:0.032164s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:15+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/dashboard/get_general_data
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard/get_general_data [运行时间：0.159612s][吞吐率：6.27req/s] [内存消耗：765.16kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000715s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_general_data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000221s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_general_data[ D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.031289s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021730s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001668s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001789s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space` [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_parking_space_use` [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_parking_space_use` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_member` [ RunTime:0.001730s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100001' LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_member` WHERE  `community_code` = 'CM2017110100001'  AND `owner_type` = 3 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100001' [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_vehicle` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_vehicle` WHERE  `member_id` IN (1,4) LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT `id` FROM `es_member` WHERE  `community_code` = 'CM2017110100001' [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_pet` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_pet` WHERE  `member_id` IN (1,4) LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_repair` [ RunTime:0.002620s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100001'  AND `status` = 0 LIMIT 1 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_repair` WHERE  `community_code` = 'CM2017110100001'  AND `status` = 1 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001912s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/new/estate-init/public/admin.php/dashboard/get_general_data' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53' , '10.197.29.160' , 1639295895) [ RunTime:0.027977s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:15+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/dashboard/get_activity
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard/get_activity [运行时间：0.224442s][吞吐率：4.46req/s] [内存消耗：684.77kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000702s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'get_activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'code' => 'CM2017110100001',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000221s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->get_activity[ D:\wamp64\www\new\estate-init\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\dashboard\activity.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'community',
+  6 => 'activity',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.025866s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024933s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_activity` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`create_time` FROM `es_activity` WHERE  `status` = 1  AND `community_code` = 'CM2017110100001' ORDER BY id desc LIMIT 0,10 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.001983s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"code\":\"CM2017110100001\"}' , '/new/estate-init/public/admin.php/dashboard/get_activity' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53' , '10.197.29.160' , 1639295895) [ RunTime:0.022477s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:23+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/device/index?sort=buy_time&order=desc&offset=0&limit=10&_=1639295885211
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/device/index?sort=buy_time&order=desc&offset=0&limit=10&_=1639295885211 [运行时间：0.043048s][吞吐率：23.23req/s] [内存消耗：830.80kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001153s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'device.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/json',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/device/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'buy_time',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1639295885211',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/device/index.php
+[ info ] [ RUN ] app\admin\controller\device\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\device\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000177s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.001810s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.002705s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.001829s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_device` [ RunTime:0.001878s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_device` WHERE  (  `community_code` IN ('CM2017110100001','CM2017110100002') ) LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `es_device` WHERE  (  `community_code` IN ('CM2017110100001','CM2017110100002') ) ORDER BY `buy_time`  desc LIMIT 0,10 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` IN ('CM2017110100002','CM2017110100001') [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:32+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/expenses/project?sort=community_code%2Cname&order=asc%2Casc&offset=0&limit=10&_=1639295889098
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/project?sort=community_code%2Cname&order=asc%2Casc&offset=0&limit=10&_=1639295889098 [运行时间：0.056924s][吞吐率：17.57req/s] [内存消耗：849.92kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000797s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'expenses.project',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/json',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/project?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'community_code,name',
+  'order' => 'asc,asc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1639295889098',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000244s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/project.php
+[ info ] [ RUN ] app\admin\controller\expenses\Project->index[ D:\wamp64\www\new\estate-init\application\admin\controller\expenses\Project.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000452s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020777s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_expenses_project` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_expenses_project` WHERE  (  `community_code` IN ('CM2017110100001','CM2017110100002') ) LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `es_expenses_project` WHERE  (  `community_code` IN ('CM2017110100001','CM2017110100002') ) ORDER BY `community_code`  asc,`name`  asc LIMIT 0,10 [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:32+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/expenses/index?sort=create_time&order=desc&offset=0&limit=10&_=1639295889092
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index?sort=create_time&order=desc&offset=0&limit=10&_=1639295889092 [运行时间：0.094385s][吞吐率：10.59req/s] [内存消耗：873.70kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000966s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'expenses.index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/json',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'create_time',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1639295889092',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000212s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/index.php
+[ info ] [ RUN ] app\admin\controller\expenses\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\expenses\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021247s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.001734s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_expenses` [ RunTime:0.001736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `es_expenses` WHERE  (  `community_code` IN ('CM2017110100001','CM2017110100002') ) LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `es_expenses` WHERE  (  `community_code` IN ('CM2017110100001','CM2017110100002') ) ORDER BY `create_time`  desc LIMIT 0,10 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_expenses_project` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT * FROM `es_expenses_project` WHERE  `code` IN ('EP2017110100001','EP2017110100002','EP2017110100009','EP2017110100003','EP2017110100010') [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_house` [ RunTime:0.001549s ]
+[ sql ] [ SQL ] SELECT * FROM `es_house` WHERE  `code` IN ('HS2017110200003','HS2017110200001','HS2017110200002','HS2017110200007','HS2017110200013') [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:32+08:00 ] 10.197.29.160 10.197.29.160 POST /new/estate-init/public/admin.php/expenses/index/get_project_by_cm_code
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index/get_project_by_cm_code [运行时间：0.197990s][吞吐率：5.05req/s] [内存消耗：703.98kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000661s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'expenses.index',
+    2 => 'get_project_by_cm_code',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://460d80b632.zicp.vip',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php/expenses/index?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'community_code' => '',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/expenses/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\expenses\Index->get_project_by_cm_code[ D:\wamp64\www\new\estate-init\application\admin\controller\expenses\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.063432s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025186s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT MIN(pid) AS tp_min FROM `es_auth_group` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_community` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `code` FROM `es_community` [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_community` WHERE  `code` IN ('CM2017110100001','CM2017110100002') [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_expenses_project` [ RunTime:0.001859s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_expenses_project` WHERE  `community_code` = '' [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_house` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `code`,`name` FROM `es_house` WHERE  `community_code` = '' [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_admin_log` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] INSERT INTO `es_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"community_code\":\"\"}' , '/new/estate-init/public/admin.php/expenses/index/get_project_by_cm_code' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53' , '10.197.29.160' , 1639295912) [ RunTime:0.061373s ]
+---------------------------------------------------------------
+[ 2021-12-12T15:58:50+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php/index/login?url=/new/estate-init/public/admin.php [运行时间：0.013832s][吞吐率：72.30req/s] [内存消耗：402.20kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000812s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://460d80b632.zicp.vip/new/estate-init/public/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/new/estate-init/public/admin.php',
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000246s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000184s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-12T15:58:50+08:00 ] 10.197.29.160 10.197.29.160 GET /new/estate-init/public/admin.php
+[ info ] 460d80b632.zicp.vip/new/estate-init/public/admin.php [运行时间：0.067282s][吞吐率：14.86req/s] [内存消耗：893.82kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000714s ]
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '460d80b632.zicp.vip',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'tj95eceba51d1749cd98415c14e7456b=1; PHPSESSID=8e8fh0gp1sna5p6ui1b83o1nn1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000219s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wamp64\www\new\estate-init\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp64\www\new\estate-init\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\new\estate-init\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]The each() function is deprecated. This message will be suppressed on further calls[D:\wamp64\www\new\estate-init\thinkphp\library\think\db\Query.php:715]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017228s ] mysql:dbname=db_estate;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_group_access` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `es_auth_group_access` `AuthGroupAccess` LEFT JOIN `es_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `es_auth_rule` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `es_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000644s ]

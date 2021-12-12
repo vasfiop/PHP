@@ -2,7 +2,7 @@
 include_once("include.php");
 Sqli\sqli_init();
 $array;
-if (!isset($_POST['u_eamil']))
+if (!isset($_POST['u_email']))
     $array = array("success" => false, "msg" => "do not have email");
 else if (!isset($_POST['u_password']))
     $array = array("success" => false, "msg" => "do not have password");

@@ -1,5 +1,6 @@
 <?php
 include_once("include.php");
+ob_start();
 Sqli\sqli_init();
 $array;
 if (!isset($_POST['u_email']))
@@ -13,4 +14,5 @@ else {
     $array = array("success" => true, "msg" => $rand_num);
 }
 $json = json_encode($array);
+ob_clean();
 echo $json;

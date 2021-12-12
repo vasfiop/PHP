@@ -15,11 +15,11 @@ if (!isset($_POST['u_email']) && !isset($_POST['u_password'])) {
         while ($row = Sqli\sqli_get_map($list)) {
             $row['u_pic'] = $user_src . $row['u_pic'];
             array_push($array, $row);
+            srand($row['uid']);
         }
         $_SESSION['uid'] = $row['uid'];
     }
 }
-srand($row['uid']);
 $rand_num;
 for ($i = 0; $i < 4; $i++)
     $rand_num[$i] = rand(0, 100);

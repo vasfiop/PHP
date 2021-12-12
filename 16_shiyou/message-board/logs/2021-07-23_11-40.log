@@ -1,0 +1,59 @@
+[2021-07-23 11:40:14.000000]	/message-board-master/reg.php?action=reg
+[GET 参数]	Array
+(
+    [action] => reg
+)
+
+[POST 参数]	Array
+(
+    [nickname] => test1234
+    [password] => 12345678
+    [email] => 123@qq.com
+    [qq] => 12345
+    [sex] => 1
+)
+
+---------------------------------------------
+
+[2021-07-23 11:40:22.000000]	/message-board-master/reg.php?action=reg
+[GET 参数]	Array
+(
+    [action] => reg
+)
+
+[POST 参数]	Array
+(
+    [nickname] => test1234
+    [password] => test12345678
+    [email] => 123@qq.com
+    [qq] => 12345
+    [sex] => 1
+)
+
+---------------------------------------------
+
+[2021-07-23 11:40:24.000000]	/message-board-master/login.php
+[GET 参数]	Array
+(
+)
+
+[POST 参数]	Array
+(
+)
+
+---------------------------------------------
+
+[2021-07-23 11:40:34.000000]	/message-board-master/login.php?action=login
+[GET 参数]	Array
+(
+    [action] => login
+)
+
+[POST 参数]	Array
+(
+    [account] => test1234
+    [password] => test12345678
+)
+
+---------------------------------------------
+
