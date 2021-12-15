@@ -11,12 +11,13 @@ if ($list->num_rows == 0) {
 }
 
 session_start();
-
+ob_start();
 $new_id = date('dhis') . rand();
 $_SESSION[$new_id] = $a_email;
 $url = "http://460d80b632.zicp.vip/game/changePassword.php?new_id=$new_id";
 $content = "[后台管理系统] 尊敬的$a_email :我们收到了您 修改密码的申请 确认无误后请点击下连接确认操作：$url\n如非本人操作，请无视该邮件.";
 Email\sendMail($a_email, "后台管理系统验证", $content);
+ob_clean();
 ?>
 <!DOCTYPE html>
 <html lang="en">

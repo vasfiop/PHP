@@ -28,6 +28,7 @@ if (!isset($_SESSION['new_admin']))
 else
     $new_admin = $_SESSION['new_admin'];
 
+ob_start();
 $num = count($new_admin);
 $new_id = date('dhis') . rand();
 array_push($new_admin, array($new_id => array($a_name, $a_email, $a_telphone, $password)));
@@ -35,6 +36,7 @@ $_SESSION['new_admin'] = $new_admin;
 $url = "http://460d80b632.zicp.vip/game/check.php?count=$num&new_id=$new_id";
 $content = "[后台管理系统] 尊敬的$a_name :我们收到了您 注册的申请 确认无误后请点击下连接确认操作：$url \n如非本人操作，请无视该邮件.";
 Email\sendMail($a_email, "后台管理系统验证", $content);
+ob_clean();
 ?>
 <!DOCTYPE html>
 <html lang="en">

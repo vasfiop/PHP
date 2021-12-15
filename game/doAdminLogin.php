@@ -13,5 +13,6 @@ else {
     $row = Sqli\sqli_get_map($success);
     $aid = $row['aid'];
     $_SESSION['admin_id'] = $aid;
+    $_SESSION['admin'] = $row;
     header("location:welcome.php");
 }

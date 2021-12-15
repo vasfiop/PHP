@@ -53,6 +53,7 @@ include_once("./tql/header.php");
         <div class="col-md order-md-1">
 
             <form class="needs-validation" novalidate method="POST" action="doChackPassword.php">
+                <input name="mode" value="1" type="hidden">
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="password">请输入登陆的密码</label>

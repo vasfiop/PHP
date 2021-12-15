@@ -60,3 +60,9 @@ function GetAdminByIdPass($aid, $a_password)
     $sql = "SELECT * from admin where aid = $aid and a_password = md5($a_password)";
     return sqli_get_list($sql);
 }
+function UpdateEmail($a_email, $aid)
+{
+    $sql = "UPDATE admin set a_email = '$a_email' where aid = $aid";
+
+    return sqli_update($sql);
+}

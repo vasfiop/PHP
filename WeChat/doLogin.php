@@ -12,6 +12,7 @@ if (!isset($_POST['u_email']) && !isset($_POST['u_password'])) {
     if ($list->num_rows == 0) {
         $array = array("success" => false, "msg" => "用户名或密码错误");
     } else {
+        $array['success'] = true;
         while ($row = Sqli\sqli_get_map($list)) {
             $row['u_pic'] = $user_src . $row['u_pic'];
             array_push($array, $row);

@@ -14,14 +14,12 @@ include_once("./tql/header.php");
                     </a>
                 </div>
                 <div class="card-body">
-                    <!-- TODO 更改密码 -->
                     <a class="card-text" href="adminPassword.php">
                         更改密码
                     </a>
                 </div>
                 <div class="card-body">
-                    <!-- TODO 更改绑定邮箱 -->
-                    <a class="card-text" href="">
+                    <a class="card-text" href="adminChangeEmail.php">
                         更改绑定邮箱
                     </a>
                 </div>
